@@ -156,38 +156,6 @@
       }
 
       /* -------------------------------------------------
-           4. Loading screen
-        ------------------------------------------------- */
-      .loader {
-        position: fixed;
-        inset: 0;
-        background: #fff;
-        z-index: 9999;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: opacity 0.5s ease-out;
-      }
-      .loader.hide {
-        opacity: 0;
-        pointer-events: none;
-      }
-
-      .spinner {
-        width: 60px;
-        height: 60px;
-        border: 4px solid #f3f3f3;
-        border-top-color: #ff6b00;
-        border-radius: 50%;
-        animation: spin 1s linear infinite;
-      }
-      @keyframes spin {
-        to {
-          transform: rotate(360deg);
-        }
-      }
-
-      /* -------------------------------------------------
            5. Logo
         ------------------------------------------------- */
       .logo {
@@ -1043,14 +1011,6 @@
 
 
     <script>
-      /* -------------------------------------------------
-   1. Loader
-------------------------------------------------- */
-      window.addEventListener("load", () => {
-        const loader = document.querySelector(".loader");
-        setTimeout(() => loader.classList.add("hide"), 600);
-      });
-
       /* -------------------------------------------------
    2. Mobile menu
 ------------------------------------------------- */

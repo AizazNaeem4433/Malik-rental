@@ -309,7 +309,7 @@
 
               <!-- Instagram -->
               <a
-                href="#"
+                href="https://www.instagram.com/badar__malik?igsh=dXV3NHVmdTRvdG90"
                 class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
               >
                 <svg
@@ -433,39 +433,45 @@
     </header>
 
     <section
-      id="hero"
-      class="relative min-h-screen flex items-center justify-center parallax overflow-hidden"
-    >
-      <picture class="absolute inset-0 z-0">
-        <img
-          src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1920"
-          alt="Luxury car"
-          class="w-full h-full object-cover"
-        />
-        <div class="absolute inset-0 bg-black/60"></div>
-      </picture>
+  id="hero"
+  class="relative min-h-screen flex items-center justify-center overflow-hidden"
+>
+  <!-- Background Image with Overlay -->
+  <picture class="absolute inset-0 z-0">
+    <img
+      src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1920&q=80"
+      alt="Luxury car"
+      class="w-full h-full object-cover object-center"
+    />
+    <div class="absolute inset-0 bg-black/60"></div>
+  </picture>
 
-      <div class="container mx-auto px-4 z-10 text-center">
-        <h1
-          class="text-4xl md:text-6xl font-bold text-white typewriter"
-          data-a="slideLeft"
-        >
-          Rent Your Dream Car Today
-        </h1>
-        <p
-          class="mt-4 text-xl text-gray-200 gradient-text"
-          data-a="fadeUp"
-          data-delay="200"
-        >
-          Experience luxury and comfort with our premium fleet
-        </p>
-        <a
-          href="#book"
-          class="inline-block mt-6 bg-primary text-white px-8 py-3 rounded-full hover-glow hover-scale"
-          >Book Now</a
-        >
-      </div>
-    </section>
+  <!-- Content -->
+  <div class="relative z-10 container mx-auto px-4 sm:px-6 md:px-8 text-center">
+    <h1
+      class="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-snug sm:leading-tight break-words typewriter"
+      data-a="slideLeft"
+    >
+      Rent Your Dream Car Today
+    </h1>
+
+    <p
+      class="mt-4 text-sm sm:text-lg md:text-xl text-gray-200 max-w-2xl mx-auto gradient-text"
+      data-a="fadeUp"
+      data-delay="200"
+    >
+      Experience luxury and comfort with our premium fleet
+    </p>
+
+    <a
+      href="#book"
+      class="inline-block mt-6 bg-primary text-white font-semibold px-6 sm:px-8 py-3 sm:py-3.5 rounded-full hover:scale-105 hover:shadow-lg transition-transform duration-300"
+    >
+      Book Now
+    </a>
+  </div>
+</section>
+
 
     <!-- ==================== SERVICES ==================== -->
     <section id="services" class="py-16 md:py-24 bg-white">
@@ -811,32 +817,84 @@
         <div class="grid md:grid-cols-2 gap-12 items-start">
           <div class="space-y-4">
             <!-- FAQ items -->
-            <div class="border-b border-gray-200" data-a="fadeUp">
-              <button
-                class="faq-toggle flex justify-between items-center w-full py-4 text-left font-semibold text-lg text-gray-900 hover:text-primary"
-              >
-                What documents do I need to rent a car?
-                <svg
-                  class="w-5 h-5 transition-transform"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-              </button>
-              <div
-                class="faq-content max-h-0 overflow-hidden transition-all duration-500"
-              >
-                <p class="pb-4 text-gray-600">
-                  Valid driving license, passport/ID, and a credit card for the
-                  deposit. International renters may need an IDP.
-                </p>
-              </div>
-            </div>
+<div class="border-b border-gray-200" data-a="fadeUp">
+  <button
+    class="faq-toggle flex justify-between items-center w-full py-4 text-left font-semibold text-lg text-gray-900 hover:text-primary"
+  >
+    What are the age requirements to rent a car?
+    <svg
+      class="w-5 h-5 transition-transform"
+      viewBox="0 0 20 20"
+      fill="currentColor"
+    >
+      <path
+        fill-rule="evenodd"
+        d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z"
+        clip-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="faq-content max-h-0 overflow-hidden transition-all duration-500"
+  >
+    <p class="pb-4 text-gray-600">
+      You must be at least 21 years old with a valid driving license. Renters under 25 may be subject to a young driver surcharge.
+    </p>
+  </div>
+</div>
+
+<div class="border-b border-gray-200" data-a="fadeUp">
+  <button
+    class="faq-toggle flex justify-between items-center w-full py-4 text-left font-semibold text-lg text-gray-900 hover:text-primary"
+  >
+    Is there a mileage limit on rentals?
+    <svg
+      class="w-5 h-5 transition-transform"
+      viewBox="0 0 20 20"
+      fill="currentColor"
+    >
+      <path
+        fill-rule="evenodd"
+        d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z"
+        clip-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="faq-content max-h-0 overflow-hidden transition-all duration-500"
+  >
+    <p class="pb-4 text-gray-600">
+      Most rentals come with unlimited mileage. However, some vehicle types or long-term rentals may have daily mileage caps.
+    </p>
+  </div>
+</div>
+
+<div class="border-b border-gray-200" data-a="fadeUp">
+  <button
+    class="faq-toggle flex justify-between items-center w-full py-4 text-left font-semibold text-lg text-gray-900 hover:text-primary"
+  >
+    Can I pick up and drop off the car at different locations?
+    <svg
+      class="w-5 h-5 transition-transform"
+      viewBox="0 0 20 20"
+      fill="currentColor"
+    >
+      <path
+        fill-rule="evenodd"
+        d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z"
+        clip-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="faq-content max-h-0 overflow-hidden transition-all duration-500"
+  >
+    <p class="pb-4 text-gray-600">
+      Yes, one-way rentals are available between select locations for an additional fee. Please confirm availability when booking.
+    </p>
+  </div>
+</div>
+
 
             <!-- repeat for other FAQs … -->
             <!-- (kept the same content, only animation class added) -->
@@ -848,7 +906,7 @@
               <button
                 class="faq-toggle flex justify-between items-center w-full py-4 text-left font-semibold text-lg text-gray-900 hover:text-primary"
               >
-                Can I use a debit card for a deposit?
+                How do I cancel my car rental reservation?
                 <svg
                   class="w-5 h-5 transition-transform"
                   viewBox="0 0 20 20"
@@ -865,8 +923,8 @@
                 class="faq-content max-h-0 overflow-hidden transition-all duration-500"
               >
                 <p class="pb-4 text-gray-600">
-                  Debit cards are subject to management approval and may require
-                  extra proof.
+                  For the cancellation contact us via WhatsApp or email with your
+                  booking details. Cancellations made 24 hours before pickup are
                 </p>
               </div>
             </div>
@@ -876,7 +934,7 @@
 
           <picture class="hidden md:block" data-a="slideRight">
             <img
-              src="https://unsplash.com/photos/a-car-driving-down-a-road-with-a-sky-background-F8XSzpM_dAU"
+              src="/public/typeR.jpg"
               alt="Car interior"
               class="rounded-xl shadow-2xl w-full h-auto object-cover hover-lift"
             />
@@ -886,24 +944,103 @@
     </section>
 
     <!-- ==================== FOOTER ==================== -->
-    <footer class="bg-gray-800 text-white py-12">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div
-          class="grid grid-cols-2 md:grid-cols-4 gap-8 border-b border-gray-700 pb-8 mb-8"
-        >
-          <div data-a="fadeIn">
-            <h5 class="logo"><span>M</span>alik</h5>
-            <p class="text-gray-400 text-sm">
-              Rent Your Perfect Drive. Reliable service, premium fleet.
-            </p>
-          </div>
-          <!-- quick links, support, contact … (unchanged) -->
-        </div>
-        <p class="text-center text-sm text-gray-500" data-a="fadeUp">
-          &copy; <span id="year"></span> Malik Car Rentals. All rights reserved.
+<footer class="bg-gray-900 text-gray-300 py-12">
+  <div class="max-w-7xl mx-auto px-6 lg:px-8">
+    <div
+      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 border-b border-gray-700 pb-10 mb-8"
+    >
+      <!-- Brand -->
+      <div data-a="fadeIn">
+        <h5 class="text-2xl font-bold text-white mb-3">
+          <span class="text-primary">M</span>alik
+        </h5>
+        <p class="text-gray-400 text-sm leading-relaxed">
+          Rent your perfect drive with confidence. Premium cars, exceptional
+          service, and smooth journeys — every time.
         </p>
       </div>
-    </footer>
+
+      <!-- Quick Links -->
+      <div data-a="fadeIn" data-delay="100">
+        <h6 class="text-lg font-semibold text-white mb-3">Quick Links</h6>
+        <ul class="space-y-2 text-sm">
+          <li>
+            <a
+              href="#hero"
+              class="hover:text-primary transition-colors duration-300"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#services"
+              class="hover:text-primary transition-colors duration-300"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a
+              href="#faq"
+              class="hover:text-primary transition-colors duration-300"
+              >FAQ</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <!-- Support -->
+      <div data-a="fadeIn" data-delay="200">
+        <h6 class="text-lg font-semibold text-white mb-3">Support</h6>
+        <ul class="space-y-2 text-sm">
+          <li>
+            <a
+              href="#book"
+              class="hover:text-primary transition-colors duration-300"
+              >Book a Car</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div data-a="fadeIn" data-delay="300">
+        <h6 class="text-lg font-semibold text-white mb-3">Contact Us</h6>
+        <ul class="space-y-3 text-sm">
+          <li>
+            📞
+            <a
+              href="tel:+923001234567"
+              class="hover:text-primary transition-colors duration-300"
+              >+92 3097386716</a
+            >
+          </li>
+          <li>
+            ✉️
+            <a
+              href="mailto:badarmalik926@gmail.com"
+              class="hover:text-primary transition-colors duration-300"
+              >info@malikcarrentals.com</a
+            >
+          </li>
+          <li>
+            📍 Wazirabad, Pakistan
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bottom -->
+    <p class="text-center text-xs text-gray-500" data-a="fadeUp">
+      &copy; <span id="year"></span> Malik Car Rentals. All rights reserved.
+    </p>
+  </div>
+
+  <script>
+    // Auto year update
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</footer>
+
 
     <script>
       /* -------------------------------------------------
